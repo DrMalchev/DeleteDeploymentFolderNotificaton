@@ -1,0 +1,64 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Projects\\backup\\DeleteDeploymentFolder\\DeleteDeploymentFolder\\DeleteDeploymentFolder.csproj": {}
+  },
+  "projects": {
+    "C:\\Projects\\backup\\DeleteDeploymentFolder\\DeleteDeploymentFolder\\DeleteDeploymentFolder.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projects\\backup\\DeleteDeploymentFolder\\DeleteDeploymentFolder\\DeleteDeploymentFolder.csproj",
+        "projectName": "DeleteDeploymentFolder",
+        "projectPath": "C:\\Projects\\backup\\DeleteDeploymentFolder\\DeleteDeploymentFolder\\DeleteDeploymentFolder.csproj",
+        "packagesPath": "C:\\Users\\D.Malchev\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\backup\\DeleteDeploymentFolder\\DeleteDeploymentFolder\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "C:\\Users\\D.Malchev\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://nuget.sitefinity.com/nuget": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.telerik.com/nuget": {}
+        },
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {
+          "dependencies": {
+            "Microsoft.VSSDK.BuildTools": {
+              "target": "Package",
+              "version": "[16.11.35, )"
+            },
+            "Microsoft.VisualStudio.SDK": {
+              "include": "Compile, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "target": "Package",
+              "version": "[16.0.206, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}
